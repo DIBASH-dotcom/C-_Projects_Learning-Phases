@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
+#include<string.h>
 int main() {
-  int emp[5][7];
+  
 char name[5] [1000];
 int total=0;
 int salary[5][7];
@@ -15,10 +15,12 @@ for(i=0; i<5; i++) {
 printf(" /n Enter the employee name %d :",i+1);
 scanf("%s" , name[i]);
 
+   total=0;
+  
 for(j=0; j<7; j++) {
 printf(" /n Enter the salary of a day%d:",j+1);
 scanf("%d", &salary[i][j]);
-total=+ salary[i][j];
+total+= salary[i][j];
 continue;
 }
 
@@ -41,3 +43,4 @@ printf("/n The more salary got by %s which is Rs%d:",name[i] max);
 
 
   
+
