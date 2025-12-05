@@ -1,6 +1,4 @@
-// result_checker.cpp
-// Compile: g++ -std=c++17 result_checker.cpp -o result_checker
-// Run: ./result_checker
+
 
 #include <bits/stdc++.h>
 using namespace std;
